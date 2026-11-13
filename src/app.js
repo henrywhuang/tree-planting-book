@@ -1031,7 +1031,7 @@ class TreePlantingBook {
       if (this.mode === "cover" || this.mode === "closed") {
         openBookAt(0, { draw: false });
         this.book.sheet.visible = false;
-        this.book.coverActor(time);
+        this.book.coverActor(time, this.audio.speaking);
       } else if (animation?.kind === "opening") {
         const age = time - animation.start;
         openBookAt(Math.min(5.8, age), { draw: false });
@@ -1089,16 +1089,22 @@ class TreePlantingBook {
     }
     this.view.positionHotspots();
     const cover = this.mode === "cover" || this.mode === "closed";
-    this.view.bubble("ip-callout", this.book.actor, undefined, cover);
+    const captionVisible =
+      this.mode !== "song" &&
+      animation?.kind !== "song-exit" &&
+      (this.state.captions || !this.state.sound) &&
+      !!this.audio.caption;
+    this.view.bubble(
+      "ip-callout",
+      this.book.actor,
+      undefined,
+      cover && !captionVisible,
+    );
     this.view.bubble(
       "speech-bubble",
       this.book.actor,
       this.audio.caption,
-      !cover &&
-        this.mode !== "song" &&
-        animation?.kind !== "song-exit" &&
-        (this.state.captions || !this.state.sound) &&
-        !!this.audio.caption,
+      captionVisible,
     );
     this.view.drawTrail(time);
     if (

@@ -374,7 +374,7 @@ export class BookScene {
     }
   }
 
-  coverActor(time) {
+  coverActor(time, speaking = false) {
     this.actor.scale.setScalar(1.08);
     this.actor.position.set(-2.7, -0.36, 1.35);
     this.actor.rotation.set(
@@ -388,7 +388,7 @@ export class BookScene {
       left: 28 + 18 * Math.sin(time * 3),
       right: -65,
       lean: 0.025 * Math.sin(time * 2),
-      sing: false,
+      sing: speaking,
     });
     this.actor.updateWorldMatrix(true, true);
     for (let foot = 0; foot < 2; foot++) {
