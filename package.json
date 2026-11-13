@@ -1,0 +1,20 @@
+{
+  "name": "tree-planting-book",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "两端植树 · 1号的数学立体书",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "format": "prettier --write index.html src scripts tests README.md"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "three": "0.181.0"
+  }
+}

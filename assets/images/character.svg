@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="175" viewBox="0 0 218 175" data-rig-version="2" data-character="01">
+  <title>数字方块 1</title>
+  <g id="character_rig" data-part="character_rig">
+    <g id="body" data-part="body">
+      <g id="block_01_anchor" data-part="block_01_anchor" transform="translate(49 10)">
+        <g id="block_01" data-part="block_01" data-pivot="60 60">
+          <g id="arm_left_anchor" data-part="arm_left_anchor" transform="translate(4 74)" stroke="#332F33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <g id="arm_left" data-part="arm_left" data-pivot="0 0">
+              <g id="arm_left_art" data-part="arm_left_art" transform="translate(-53 -84)">
+                <path d="M 53,84 Q 42,95 28,113" />
+              </g>
+            </g>
+          </g>
+          <g id="arm_right_anchor" data-part="arm_right_anchor" transform="translate(116 74)" stroke="#332F33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <g id="arm_right" data-part="arm_right" data-pivot="0 0">
+              <g id="arm_right_art" data-part="arm_right_art" transform="translate(-165 -84)">
+                <path d="M 165,84 Q 176,95 190,113" />
+              </g>
+            </g>
+          </g>
+          <g id="leg_left_anchor" data-part="leg_left_anchor" transform="translate(36 118)" stroke="#332F33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <g id="leg_left" data-part="leg_left" data-pivot="0 0">
+              <g id="leg_left_art" data-part="leg_left_art" transform="translate(-85 -128)">
+                <path d="M 85,128 L 85,160 L 67,163" />
+              </g>
+            </g>
+          </g>
+          <g id="leg_right_anchor" data-part="leg_right_anchor" transform="translate(84 118)" stroke="#332F33" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <g id="leg_right" data-part="leg_right" data-pivot="0 0">
+              <g id="leg_right_art" data-part="leg_right_art" transform="translate(-133 -128)">
+                <path d="M 133,128 L 133,160 L 151,163" />
+              </g>
+            </g>
+          </g>
+          <g id="block_01_surface" data-part="block_01_surface">
+            <path d="M 1.80,2.23 L 5.68,0.92 L 9.56,0.74 L 13.44,2.30 L 17.32,0.99 L 21.20,0.89 L 25.08,1.74 L 28.96,1.25 L 32.84,2.12 L 36.72,1.07 L 40.60,2.24 L 44.48,1.21 L 48.36,1.66 L 52.24,2.19 L 56.12,1.80 L 60.00,2.18 L 63.88,1.83 L 67.76,0.78 L 71.64,2.11 L 75.52,1.64 L 79.40,1.20 L 83.28,1.00 L 87.16,2.06 L 91.04,1.63 L 94.92,2.20 L 98.80,1.94 L 102.68,2.24 L 106.56,1.61 L 110.44,1.82 L 114.32,1.68 L 118.20,1.11 L 118.93,5.38 L 117.90,9.26 L 118.65,13.14 L 118.93,17.02 L 118.44,20.90 L 117.63,24.78 L 118.72,28.66 L 118.47,32.54 L 117.70,36.42 L 117.48,40.30 L 118.25,44.18 L 117.45,48.06 L 118.88,51.94 L 118.21,55.82 L 118.23,59.70 L 118.06,63.58 L 118.46,67.46 L 118.87,71.34 L 117.89,75.22 L 118.00,79.10 L 118.33,82.98 L 117.88,86.86 L 118.35,90.74 L 118.27,94.62 L 118.09,98.50 L 118.48,102.38 L 118.25,106.26 L 117.54,110.14 L 118.99,114.02 L 117.97,117.90 L 114.32,118.09 L 110.44,118.04 L 106.56,118.89 L 102.68,118.92 L 98.80,118.22 L 94.92,118.04 L 91.04,117.55 L 87.16,118.83 L 83.28,117.67 L 79.40,118.27 L 75.52,117.96 L 71.64,117.93 L 67.76,117.97 L 63.88,117.71 L 60.00,117.46 L 56.12,118.26 L 52.24,118.67 L 48.36,118.44 L 44.48,117.72 L 40.60,118.51 L 36.72,117.48 L 32.84,118.06 L 28.96,118.72 L 25.08,118.87 L 21.20,118.14 L 17.32,118.75 L 13.44,118.20 L 9.56,118.24 L 5.68,118.34 L 1.80,118.99 L 2.19,114.02 L 1.76,110.14 L 2.16,106.26 L 2.03,102.38 L 1.57,98.50 L 2.25,94.62 L 2.31,90.74 L 1.97,86.86 L 2.51,82.98 L 1.03,79.10 L 1.80,75.22 L 2.02,71.34 L 1.54,67.46 L 1.27,63.58 L 2.11,59.70 L 1.70,55.82 L 1.43,51.94 L 1.07,48.06 L 2.55,44.18 L 1.56,40.30 L 1.19,36.42 L 1.35,32.54 L 1.41,28.66 L 2.39,24.78 L 1.29,20.90 L 1.44,17.02 L 1.16,13.14 L 1.75,9.26 L 1.33,5.38 Z" fill="#454145" />
+          </g>
+          <g id="face" data-part="face">
+            <g id="eye_left" data-part="eye_left">
+              <path d="M 45.43,38.00 L 44.70,40.48 L 45.45,43.30 L 44.08,45.56 L 42.85,47.77 L 41.84,50.21 L 39.17,50.90 L 37.95,53.33 L 35.45,53.57 L 33.33,54.36 L 31.13,54.85 L 28.82,55.56 L 26.41,55.50 L 24.25,54.34 L 22.46,52.63 L 20.79,50.95 L 18.98,49.45 L 17.67,47.42 L 16.12,45.46 L 15.27,43.07 L 15.42,40.47 L 15.10,38.00 L 14.14,35.34 L 14.96,32.83 L 16.75,30.84 L 16.76,27.96 L 18.77,26.36 L 20.52,24.71 L 22.04,22.66 L 24.26,21.69 L 26.60,21.34 L 28.86,21.05 L 31.16,20.77 L 33.55,20.68 L 35.76,21.66 L 37.35,23.71 L 39.10,25.18 L 41.11,26.47 L 42.43,28.51 L 44.30,30.33 L 44.89,32.88 L 44.62,35.53 Z" fill="#FFFFFF" />
+              <circle id="pupil_left" cx="31" cy="30" r="4.6" fill="#242024" data-part="pupil_left" />
+            </g>
+            <g id="eye_right" data-part="eye_right">
+              <path d="M 104.00,38.00 L 104.67,40.58 L 103.84,43.02 L 103.78,45.77 L 102.13,47.80 L 100.54,49.73 L 99.25,52.03 L 96.67,52.58 L 94.95,54.56 L 92.46,54.64 L 90.20,55.45 L 87.77,55.95 L 85.39,55.28 L 83.20,54.18 L 80.89,53.35 L 79.72,50.82 L 77.58,49.62 L 75.52,48.03 L 74.47,45.65 L 74.08,43.05 L 73.93,40.49 L 73.56,38.00 L 73.59,35.45 L 74.62,33.12 L 74.19,30.21 L 75.82,28.17 L 77.45,26.27 L 79.55,24.98 L 81.30,23.37 L 83.32,22.13 L 85.64,21.82 L 87.85,21.13 L 90.16,21.08 L 92.58,20.84 L 94.99,21.34 L 96.43,23.83 L 98.40,25.04 L 100.95,25.89 L 101.28,28.78 L 102.77,30.72 L 104.11,32.90 L 104.58,35.43 Z" fill="#FFFFFF" />
+              <circle id="pupil_right" cx="90" cy="30" r="4.6" fill="#242024" data-part="pupil_right" />
+            </g>
+            <g id="mouth" data-part="mouth">
+              <path d="M 48,60 Q 60,87 72,60" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" />
+            </g>
+            <g id="mouth_talk" opacity="0" data-part="mouth_talk">
+              <ellipse cx="60" cy="70" rx="7" ry="8.5" fill="#FFFFFF" />
+            </g>
+            <g id="mouth_flat" opacity="0" data-part="mouth_flat">
+              <path d="M 53,64 Q 60,78 68,64" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
