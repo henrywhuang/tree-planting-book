@@ -81,7 +81,7 @@ export const voice = {
   planted: new URL("../assets/audio/planted.mp3", import.meta.url).href,
   sevenCount: new URL("../assets/audio/sevenCount.mp3", import.meta.url).href,
   sixCount: new URL("../assets/audio/sixCount.mp3", import.meta.url).href,
-  song: new URL("../assets/audio/song.mp3", import.meta.url).href,
+  song: new URL("../assets/audio/voice-song.mp3", import.meta.url).href,
   threeCount: new URL("../assets/audio/threeCount.mp3", import.meta.url).href,
   two: new URL("../assets/audio/two.mp3", import.meta.url).href,
   twoCount: new URL("../assets/audio/twoCount.mp3", import.meta.url).href,
